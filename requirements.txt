@@ -1,0 +1,10 @@
+install : 
+#install the library 
+lin  : 
+    #pylint
+test : 
+    #tesst 
+deploy : 
+    #deploy 
+
+all : install lin test deploy 
