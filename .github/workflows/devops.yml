@@ -26,6 +26,7 @@ jobs:
 
       - name: Lint with Ruff
         run: |
+         make lint 
          # ruff check .
 
       - name: Run tests with Pytest

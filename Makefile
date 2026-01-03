@@ -7,6 +7,7 @@ install:
 
 lint:
 	@echo "Running lint checks"
+	pylint --disable=R,C *.py mylib/*.py 
 	ruff check .
 
 test:
