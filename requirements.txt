@@ -2,5 +2,6 @@ wikipedia
 pytest 
 pylint 
 black 
+black[jupyter]
 fire
 pytest-cov  
