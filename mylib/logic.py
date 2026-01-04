@@ -12,5 +12,4 @@ def wiki() :
         print("Disambiguation error. Options:", e.options)
     except wikipedia.exceptions.PageError:
         print("Page not found.")
-    except Exception as e:
-        print("An error occurred:", e)
+    
